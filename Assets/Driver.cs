@@ -16,8 +16,8 @@ public class Driver : MonoBehaviour
     void Update()
     {
         // движение по оси x (steerAmount) и y (moveAmount)
-        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed;
-        float moveAmount = Input.GetAxis("Vertical") * moveSpeed;
+        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime;
+        float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
         // вращение по оси x, y, z
         transform.Rotate(0, 0, -steerAmount);
