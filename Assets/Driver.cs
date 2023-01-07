@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour
 {   
-     // SterializedField переносит переменную в Unity
+    // SterializedField переносит переменную в Unity
     [SerializeField] float steerSpeed = 1f;  // если число целое, то f можно не писать
 
     [SerializeField] float moveSpeed = 0.01f;
@@ -15,10 +15,14 @@ public class Driver : MonoBehaviour
 
     void Update()
     {
+        // движение по оси x (steerAmount) и y (moveAmount)
+        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed;
+        float moveAmount = Input.GetAxis("Vertical") * moveSpeed;
+
         // вращение по оси x, y, z
-        transform.Rotate(0, 0, steerSpeed);
+        transform.Rotate(0, 0, -steerAmount);
 
         // движение по оси x, y, z
-        transform.Translate(0, moveSpeed, 0);
+        transform.Translate(0, moveAmount, 0);
     }
 }
