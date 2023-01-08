@@ -1,7 +1,7 @@
 ### Driver.cs
 
 ##### Debud.Log(message);
-output some info into console 
+* Output some info into console.
 ##### Time.deltaTime
 * Using `Time.deltaTime` Unity can tell us how long each frame took to execute.
 * When we multiply something by `Time.deltaTime` it makes our game "frame rate independent".
@@ -10,4 +10,7 @@ output some info into console
 ***
 ### Collision.cs
 ##### OnCollisionEnter2D Method
-collision action
+* Collision action.
+
+##### OnTriggerEnter2D method
+* Actions when interacting with a trigger.

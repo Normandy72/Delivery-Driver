@@ -3,3 +3,6 @@
 
 Чтобы при столкновении элементы сдвигались:
 * выбрать элемент > `add component` > `Rigidbody 2D` > `Gravity scale = 0`
+
+Сделать элемент триггером:
+* в `[element] collider 2D ` поставить галочку `Is Trigger`
