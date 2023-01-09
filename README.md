@@ -25,6 +25,10 @@ if(this thing is true)
 ```
 ##### Why Use Tags?
 Tags allow us to easily check in code if something belongs to a particular category of thing.
+
+##### What Is a Bool?
+* Bools are types of variables that can store one of two values - true or false.
+* They are often used with if statements to decide whether something happens or not.
 ***
 ### FollowCamera.cs
 ##### Creating a reference
