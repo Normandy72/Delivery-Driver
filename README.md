@@ -8,12 +8,23 @@
 * Ie. The game behaves the same on fast and slow computers.
 
 ***
-### Collision.cs
+### Collision.cs -> was renamed to Delivery.cs
 ##### OnCollisionEnter2D Method
 * Collision action.
 
 ##### OnTriggerEnter2D method
 * Actions when interacting with a trigger.
+
+##### If Statements
+If statements let us check if something is true or not and then do something based upon the result.
+```
+if(this thing is true)
+{
+    do this thing;
+}
+```
+##### Why Use Tags?
+Tags allow us to easily check in code if something belongs to a particular category of thing.
 ***
 ### FollowCamera.cs
 ##### Creating a reference
