@@ -29,6 +29,14 @@ Tags allow us to easily check in code if something belongs to a particular categ
 ##### What Is a Bool?
 * Bools are types of variables that can store one of two values - true or false.
 * They are often used with if statements to decide whether something happens or not.
+
+##### Destroying Game Objects
+* We call `Destroy()` to delete game objects from the scene.
+* `Destroy()` requires us to tell it ("pass in") 2 things:
+    * Which game object to destroy.
+    * How much delay until its destroyed.`
+
+`Destroy(theMonster.gameObject, 0.5f);`
 ***
 ### FollowCamera.cs
 ##### Creating a reference
