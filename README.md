@@ -36,7 +36,7 @@ Tags allow us to easily check in code if something belongs to a particular categ
     * Which game object to destroy.
     * How much delay until its destroyed.`
 
-`Destroy(theMonster.gameObject, 0.5f);`
+Example: `Destroy(theMonster.gameObject, 0.5f);`
 ***
 ### FollowCamera.cs
 ##### Creating a reference
