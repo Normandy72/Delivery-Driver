@@ -14,3 +14,9 @@
 
 ##### OnTriggerEnter2D method
 * Actions when interacting with a trigger.
+***
+### FollowCamera.cs
+##### Creating a reference
+If we want to access / change / call anything other than this game object's transform, we need to create a reference.
+
+Ie. we need to tell Unity what the "thing" is that we are referring to.
